@@ -1,0 +1,6 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="496" height="496" fill="#F5F5F5" stroke="#000000" stroke-width="16"/>
+  <rect x="28" y="28" width="456" height="456" fill="none" stroke="#FF3B1F" stroke-width="6"/>
+  <text x="256" y="300" font-family="JetBrains Mono, Courier New, monospace" font-weight="700" font-size="180" fill="#111111" text-anchor="middle">ABH</text>
+  <rect x="150" y="340" width="212" height="14" fill="#FF3B1F"/>
+</svg>
