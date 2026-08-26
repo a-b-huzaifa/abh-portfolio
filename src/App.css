@@ -2,6 +2,7 @@
   --near-black: #111111;
   --near-white: #F5F5F5;
   --accent: #FF3B1F;
+  --accent-button: #C81E0E;
   --border: #000000;
 }
 
@@ -13,6 +14,7 @@ html, body {
   background: var(--near-white);
   color: var(--near-black);
   font-family: 'JetBrains Mono', 'Courier New', monospace;
+  overflow-x: hidden;
 }
 
 #root {
@@ -64,7 +66,7 @@ p.claim {
   color: var(--near-black);
   text-decoration: none;
   border: 3px solid var(--border);
-  padding: 0.5rem 0.9rem;
+  padding: 0.75rem 0.9rem;
   background: var(--near-white);
   box-shadow: 4px 4px 0 var(--border);
   transition: transform 0.1s ease;
@@ -76,13 +78,65 @@ p.claim {
 }
 
 .links a:last-child {
-  background: var(--accent);
+  background: var(--accent-button);
   color: #ffffff;
-  border-color: var(--border);
+  border-color: var(--accent);
+}
+
+.work-section {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.work-section h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 3px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.project-card {
+  border: 3px solid var(--border);
+  background: var(--near-white);
+  padding: 1.25rem;
+  box-shadow: 6px 6px 0 var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.project-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--border);
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  color: var(--near-black);
+}
+
+.project-line {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #222222;
+}
+
+.line-label {
+  font-weight: 700;
+  color: var(--near-black);
+  margin-right: 0.35rem;
 }
 
 .contact-form {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
@@ -134,10 +188,10 @@ p.claim {
   font-size: 0.9rem;
   font-weight: 700;
   color: #ffffff;
-  background: var(--accent);
+  background: var(--accent-button);
   border: 3px solid var(--border);
   border-radius: 0;
-  padding: 0.6rem 1.2rem;
+  padding: 0.75rem 1.2rem;
   box-shadow: 4px 4px 0 var(--border);
   cursor: pointer;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
@@ -179,5 +233,14 @@ p.claim {
   border-top: 1px solid #cccccc;
   padding-top: 1rem;
 }
+
+@media (max-width: 480px) {
+  .frame {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+    padding: 2rem 1.5rem;
+  }
+}
+
 
 
