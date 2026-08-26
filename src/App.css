@@ -50,6 +50,37 @@ p.claim {
   margin: 0;
 }
 
+.links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--near-black);
+  text-decoration: none;
+  border: 3px solid var(--border);
+  padding: 0.5rem 0.9rem;
+  background: var(--near-white);
+  box-shadow: 4px 4px 0 var(--border);
+  transition: transform 0.1s ease;
+}
+
+.links a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--border);
+}
+
+.links a:last-child {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--border);
+}
+
 .status {
   margin-top: 2rem;
   font-size: 0.85rem;
@@ -57,3 +88,4 @@ p.claim {
   border-top: 1px solid #cccccc;
   padding-top: 1rem;
 }
+
