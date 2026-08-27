@@ -83,6 +83,12 @@ p.claim {
   border-color: var(--accent);
 }
 
+.contact-fallback {
+  font-size: 0.8rem;
+  color: #666666;
+  margin: 0.75rem 0 0 0;
+}
+
 .work-section {
   margin-top: 2.5rem;
   display: flex;

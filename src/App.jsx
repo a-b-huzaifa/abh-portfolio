@@ -129,6 +129,9 @@ function App() {
         <a href="https://drive.google.com/file/d/1KkABcOMnUBONgfhWleJEDmDj-TJo4A67/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
         <a href="mailto:darkking999@gmail.com">Book a call</a>
       </nav>
+      <p className="contact-fallback">
+        Or email me directly: darkking999@gmail.com
+      </p>
 
       <section className="work-section">
         <h2>Work</h2>
