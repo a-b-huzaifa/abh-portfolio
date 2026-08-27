@@ -144,6 +144,14 @@ function App() {
           <p className="project-line">
             <strong className="line-label">Result:</strong> A single source of truth for the whole campaign instead of guessing what's pending.
           </p>
+          <a
+            href="https://github.com/a-b-huzaifa/job-application-truth-tracker"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            View repo
+          </a>
         </article>
 
         <article className="project-card">
@@ -157,6 +165,14 @@ function App() {
           <p className="project-line">
             <strong className="line-label">Result:</strong> A working, testable billing pipeline independent of the missing piece, with the workaround documented.
           </p>
+          <a
+            href="https://github.com/a-b-huzaifa/llm-usage-metering-and-billing-service"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            View repo
+          </a>
         </article>
       </section>
 

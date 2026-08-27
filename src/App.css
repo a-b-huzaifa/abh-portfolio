@@ -135,6 +135,27 @@ p.claim {
   margin-right: 0.35rem;
 }
 
+.project-link {
+  align-self: flex-start;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--near-black);
+  text-decoration: none;
+  border: 3px solid var(--border);
+  padding: 0.6rem 0.9rem;
+  background: var(--near-white);
+  box-shadow: 4px 4px 0 var(--border);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin-top: 0.25rem;
+  display: inline-block;
+}
+
+.project-link:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--border);
+}
+
 .contact-form {
   margin-top: 2.5rem;
   display: flex;
